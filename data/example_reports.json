@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "id": 1,
+      "TestoRefertoStringa": "RM encefalo senza e con mezzo di contrasto. Sistema ventricolare in asse, di normali dimensioni. Non alterazioni di segnale del parenchima cerebrale. Non aree di patologico potenziamento. Conclusioni: esame nei limiti della norma.",
+      "IdRefertante": 1
+    },
+    "annotations": [
+      {
+        "id": 1,
+        "updated_at": "2026-01-01T00:00:00Z",
+        "result": [
+          {
+            "from_name": "district_type",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Encefalo"
+              ]
+            }
+          },
+          {
+            "from_name": "status_class",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Negativo"
+              ]
+            }
+          },
+          {
+            "from_name": "confidence_rating",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "5"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "data": {
+      "id": 2,
+      "TestoRefertoStringa": "RM encefalo. Esiti ischemici cronici in sede capsulo-nucleare sinistra. Lieve ampliamento degli spazi liquorali periencefalici in rapporto a fenomeni involutivi. Ispessimento mucoso del seno mascellare destro.",
+      "IdRefertante": 1
+    },
+    "annotations": [
+      {
+        "id": 2,
+        "updated_at": "2026-01-01T00:00:00Z",
+        "result": [
+          {
+            "from_name": "district_type",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Encefalo"
+              ]
+            }
+          },
+          {
+            "from_name": "status_class",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Positivo"
+              ]
+            }
+          },
+          {
+            "from_name": "confidence_rating",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "5"
+              ]
+            }
+          },
+          {
+            "from_name": "category_class",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Vascolare",
+                "Neurodegenerativo",
+                "Altro"
+              ]
+            }
+          },
+          {
+            "from_name": "label_vasc",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13,
+              "end": 70,
+              "text": "Esiti ischemici cronici in sede capsulo-nucleare sinistra",
+              "labels": [
+                "Vascolare"
+              ]
+            }
+          },
+          {
+            "from_name": "label_neur",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 78,
+              "end": 160,
+              "text": "ampliamento degli spazi liquorali periencefalici in rapporto a fenomeni involutivi",
+              "labels": [
+                "Neurodegenerativo"
+              ]
+            }
+          },
+          {
+            "from_name": "label_altro",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 162,
+              "end": 208,
+              "text": "Ispessimento mucoso del seno mascellare destro",
+              "labels": [
+                "Altro"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "data": {
+      "id": 3,
+      "TestoRefertoStringa": "RM encefalo con contrasto. Formazione espansiva extra-assiale a base durale in sede frontale destra, con omogeneo potenziamento dopo contrasto, compatibile con meningioma.",
+      "IdRefertante": 1
+    },
+    "annotations": [
+      {
+        "id": 3,
+        "updated_at": "2026-01-01T00:00:00Z",
+        "result": [
+          {
+            "from_name": "district_type",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Encefalo"
+              ]
+            }
+          },
+          {
+            "from_name": "status_class",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Positivo"
+              ]
+            }
+          },
+          {
+            "from_name": "confidence_rating",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "5"
+              ]
+            }
+          },
+          {
+            "from_name": "category_class",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neoformazione"
+              ]
+            }
+          },
+          {
+            "from_name": "label-neo",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 27,
+              "end": 99,
+              "text": "Formazione espansiva extra-assiale a base durale in sede frontale destra",
+              "labels": [
+                "Neoformazione"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

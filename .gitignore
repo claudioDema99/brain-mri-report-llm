@@ -1,0 +1,22 @@
+# Patient data never goes in this repository: only the shot sets, the split
+# index and the invented examples are tracked under data/.
+data/*
+!data/shot_sets_binary.json
+!data/shot_sets_multiclass.json
+!data/split_index.json
+!data/example_reports.json
+*.xlsx
+
+# Run outputs (they contain report text)
+results_binary/
+results_multiclass/
+figures/
+logs/
+work/
+output/
+*.log
+
+__pycache__/
+*.py[cod]
+.venv/
+.env
